@@ -15,7 +15,7 @@
     <header>
         <div class="container">
             <div class="menu_mobile"></div>
-            <h1><a href="{{ route('web.home') }}" id="logo">EmasKorner</a></h1>
+            <h1><a href="{{ route('web.home') }}" id="logo"><img src="{{ asset('web/images/logo_blue_app.png') }}" alt="Larizzka Jaya"></a></h1>
             <nav>
                 <ul>
                     @php
@@ -181,7 +181,7 @@
             <div class="overlay" onclick="hide_popup();"></div>
             <div class="popup_box">
                 <div class="close_btn" onclick="hide_popup();"></div>
-                <img src="{{ asset('web/images/logo_beta_gold.png') }}">
+                <img src="{{ asset('web/images/larizzka_jaya_blue.png') }}" alt="Larizzka Jaya">
                 <ul>
                     @php
                         if (isset($navigation_menu['top'])) {
