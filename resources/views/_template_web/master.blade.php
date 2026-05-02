@@ -15,7 +15,11 @@
         <meta http-equiv="content-type" content="text/html;charset=utf-8" />
         <meta name="viewport" content="target-densitydpi=device-dpi; width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
         <meta name="HandheldFriendly" content="true" />
-        <link rel="icon" href="{{ asset($global_config->app_favicon) }}" />
+        <link rel="icon" type="image/svg+xml" href="{{ asset('web/images/favicon_blue.svg') }}" />
+        <link rel="icon" type="image/svg+xml" href="{{ asset('web/images/logo_blue_app.svg') }}" />
+        <link rel="icon" type="image/png" href="{{ asset('web/images/logo_blue_app.png') }}" />
+        <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" />
+        <link rel="apple-touch-icon" href="{{ asset('web/images/logo_blue_app.png') }}" />
         <title>@if(View::hasSection('title'))@yield('title') | {!! $global_config->app_name !!}@else {!! $global_config->meta_title !!} @endif</title>
 
         <meta name="google-site-verification" content="DvvdSEWa98mtM8UrJc-ctATRuvZugOQDdo5cpCZD_Ys" />
@@ -70,6 +74,11 @@
         <script src="{{ asset('js/thehelper.js') }}?v=1.2"></script>
 
         <style>
+            body {
+                background: #eaf7ff;
+                color: #24536d;
+            }
+
             .popup_alert .overlay {
                 width: 100%;
                 height: 100%;
