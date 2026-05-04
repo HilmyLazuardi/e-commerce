@@ -8,18 +8,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>[EmasKorner] {!! $data['title'] !!}</title>
+	<title>[Larizzka Jaya] {!! $data['title'] !!}</title>
 </head>
-<body style="padding-top:40px;margin:0 auto;background: #0C6663;">
+<body style="padding-top:40px;margin:0 auto;background: #4fa8d8;">
 	<table style="width: 100%;max-width: 600px;margin:40px auto 0;font-family: Arial, Helvetica, sans-serif;border-collapse: collapse;">
 		<thead>
 			<tr>
-				<th style="padding: 0px 0;text-align: left;vertical-align: bottom;padding-bottom: 15px;"><img style="margin:0 auto;display: block;" src="{{ asset('web/images/logo.png') }}"></th>
+				<th style="padding: 0px 0;text-align: left;vertical-align: bottom;padding-bottom: 15px;"><img style="margin:0 auto;display: block;" src="{{ asset('web/images/logo_app_blue.png') }}"></th>
 			</tr>
 		</thead>
-		<tbody style="background: #D3A381;">
+		<tbody style="background: #cfefff;">
 			<tr>
-				<td colspan="2" style="color:#3A3A3A;font-family: Arial, Helvetica, sans-serif;padding:0 40px 20px 40px;text-align: center;border-top: 1px solid #959595;">
+				<td colspan="2" style="color:#3A3A3A;font-family: Arial, Helvetica, sans-serif;padding:0 40px 20px 40px;text-align: center;border-top: 1px solid #66b9e8;">
 					<p style="font-size: 14px;padding:20px 0 0;color:#3A3A3A;">Halo <strong>{!! $data['user_name'] !!}</strong>,<br><br>
 					Pembayaran kamu sukses dan akan diteruskan ke penjual. Terima kasih sudah membeli emas dikami.</p>
 				</td>
@@ -28,44 +28,44 @@
 				<td colspan="2" style="padding:20px;">
 					<table style="width: 400px;background:#F0F0F0;border-radius: 10px;padding:20px;margin:0 auto 20px;">
 						<tr>
-							<td style="padding-bottom:10px;color:#303030;font-size:14px;text-align: left;">Total bayar:</td>
-							<td style="padding-bottom:10px;color:#303030;font-size:14px;text-align: left;"><strong style="color:#D70002;">{!! Helper::currency_format($data['invoice']->total_amount, 0, ',', '.', 'Rp', null) !!}</strong></td>
+							<td style="padding-bottom:10px;color:#24536d;font-size:14px;text-align: left;">Total bayar:</td>
+							<td style="padding-bottom:10px;color:#24536d;font-size:14px;text-align: left;"><strong style="color:#D70002;">{!! Helper::currency_format($data['invoice']->total_amount, 0, ',', '.', 'Rp', null) !!}</strong></td>
 						</tr>
 						<tr>
-							<td style="padding-bottom:10px;color:#303030;font-size:14px;text-align: left;">Metode pembayaran:</td>
-							<td style="padding-bottom:10px;color:#303030;font-size:14px;text-align: left;"><strong>{{ $data['invoice']->payment_method }}</strong></td>
+							<td style="padding-bottom:10px;color:#24536d;font-size:14px;text-align: left;">Metode pembayaran:</td>
+							<td style="padding-bottom:10px;color:#24536d;font-size:14px;text-align: left;"><strong>{{ $data['invoice']->payment_method }}</strong></td>
 						</tr>
 						<tr>
-							<td style="padding-bottom:10px;color:#303030;font-size:14px;text-align: left;">Tanggal pembayaran:</td>
-							<td style="padding-bottom:10px;color:#303030;font-size:14px;text-align: left;"><strong>{{ Helper::convert_date_to_indonesian(Helper::convert_timestamp($data['invoice']->paid_at, 'Y-m-d', env('APP_TIMEZONE', 'UTC'))) }}</strong></td>
+							<td style="padding-bottom:10px;color:#24536d;font-size:14px;text-align: left;">Tanggal pembayaran:</td>
+							<td style="padding-bottom:10px;color:#24536d;font-size:14px;text-align: left;"><strong>{{ Helper::convert_date_to_indonesian(Helper::convert_timestamp($data['invoice']->paid_at, 'Y-m-d', env('APP_TIMEZONE', 'UTC'))) }}</strong></td>
 						</tr>
 						<tr>
-							<td style="padding-bottom:10px;color:#303030;font-size:14px;text-align: left;">Waktu pembayaran:</td>
-							<td style="padding-bottom:10px;color:#303030;font-size:14px;text-align: left;"><strong>{{ Helper::convert_timestamp($data['invoice']->paid_at, 'H:i', env('APP_TIMEZONE', 'UTC')) }} WIB</strong></td>
+							<td style="padding-bottom:10px;color:#24536d;font-size:14px;text-align: left;">Waktu pembayaran:</td>
+							<td style="padding-bottom:10px;color:#24536d;font-size:14px;text-align: left;"><strong>{{ Helper::convert_timestamp($data['invoice']->paid_at, 'H:i', env('APP_TIMEZONE', 'UTC')) }} WIB</strong></td>
 						</tr>
 					</table>
 					<table style="width: 400px;margin:0 auto 20px;">
 						<tr>
-							<td><a href="{{ route('web.order.history') }}" style="width:180px;color:#303030;font-size:14px;font-weight:bold;border:1px solid #303030;text-align: center;line-height: 36px;display: block;text-decoration: none;">Lihat Daftar Transaksi</a></td>
-							<td><a href="{{ route('web.home') }}" style="float:right;width:160px;color:#fff;font-size:14px;font-weight:bold;border:1px solid #0C6663;background:#0C6663;text-align: center;line-height: 36px;display: block;text-decoration: none;">Belanja Lagi</a>
+							<td><a href="{{ route('web.order.history') }}" style="width:180px;color:#24536d;font-size:14px;font-weight:bold;border:1px solid #24536d;text-align: center;line-height: 36px;display: block;text-decoration: none;">Lihat Daftar Transaksi</a></td>
+							<td><a href="{{ route('web.home') }}" style="float:right;width:160px;color:#fff;font-size:14px;font-weight:bold;border:1px solid #4fa8d8;background:#4fa8d8;text-align: center;line-height: 36px;display: block;text-decoration: none;">Belanja Lagi</a>
 							</td>
 						</tr>
 					</table>
 
 					<table style="width: 400px;margin:0 auto;border-collapse: collapse;">
 						<tr>
-							<td colspan="2" style="padding-bottom: 5px;color:#0C6663;"><strong>Detail Pesanan</strong></td>
+							<td colspan="2" style="padding-bottom: 5px;color:#4fa8d8;"><strong>Detail Pesanan</strong></td>
 						</tr>
 
                         @foreach ($data['orders'] as $seller_id => $order_details)
                             <tr>
-                                <td colspan="2" style="font-size: 14px;color:#303030;padding-top: 10px;">Order ID: <span style="color:#0C6663;">{{ $order_details[0]->transaction_id }}</span></td>
+                                <td colspan="2" style="font-size: 14px;color:#24536d;padding-top: 10px;">Order ID: <span style="color:#4fa8d8;">{{ $order_details[0]->transaction_id }}</span></td>
                             </tr>
                             <tr>
-                                <td colspan="2" style="font-size: 14px;color:#303030;">Toko: <span style="color:#0C6663;font-weight: bold;">{{ $order_details[0]->store_name }}</span></td>
+                                <td colspan="2" style="font-size: 14px;color:#24536d;">Toko: <span style="color:#4fa8d8;font-weight: bold;">{{ $order_details[0]->store_name }}</span></td>
                             </tr>
                             <tr>
-                                <td colspan="2" style="font-size: 14px;color:#303030;">Estimasi Tiba: <span style="color:#3A3A3A;font-weight: bold;">{{ Helper::convert_date_to_indonesian(Helper::convert_timestamp($order_details[0]->estimate_arrived_at, 'Y-m-d', env('APP_TIMEZONE', 'UTC'))) }}</span></td>
+                                <td colspan="2" style="font-size: 14px;color:#24536d;">Estimasi Tiba: <span style="color:#3A3A3A;font-weight: bold;">{{ Helper::convert_date_to_indonesian(Helper::convert_timestamp($order_details[0]->estimate_arrived_at, 'Y-m-d', env('APP_TIMEZONE', 'UTC'))) }}</span></td>
                             </tr>
                             
                             @foreach ($order_details as $order_item)
@@ -77,21 +77,21 @@
                                     }
                                 @endphp
                                 <tr>
-                                    <td style="border-bottom:1px dashed #303030;vertical-align: top;padding-top: 5px;"><img style="width: 80px;" src="{{ $product_image }}"></td>
-                                    <td style="padding-right: 10px;width: 300px;border-bottom:1px dashed #303030;padding-bottom: 10px;vertical-align: top;">
-                                        <span style="color:#303030;font-size: 14px;display: block;padding-top: 5px;"><strong>{{ $order_item->product_name }}</strong></span>
-                                        <span style="color:#303030;font-size: 12px;display: block;padding-top: 5px;">Jumlah: {{ $order_item->qty }} Pcs</span>
-                                        <span style="color:#303030;font-size: 12px;display: block;padding-top: 5px;">Berat: {{ $order_item->weight / 1000 }} kg</span>
-                                        <span style="color:#303030;font-size: 12px;display: block;padding-top: 5px;">Varian: {{ $order_item->product_variant_name }}</span>
+                                    <td style="border-bottom:1px dashed #24536d;vertical-align: top;padding-top: 5px;"><img style="width: 80px;" src="{{ $product_image }}"></td>
+                                    <td style="padding-right: 10px;width: 300px;border-bottom:1px dashed #24536d;padding-bottom: 10px;vertical-align: top;">
+                                        <span style="color:#24536d;font-size: 14px;display: block;padding-top: 5px;"><strong>{{ $order_item->product_name }}</strong></span>
+                                        <span style="color:#24536d;font-size: 12px;display: block;padding-top: 5px;">Jumlah: {{ $order_item->qty }} Pcs</span>
+                                        <span style="color:#24536d;font-size: 12px;display: block;padding-top: 5px;">Berat: {{ $order_item->weight / 1000 }} kg</span>
+                                        <span style="color:#24536d;font-size: 12px;display: block;padding-top: 5px;">Varian: {{ $order_item->product_variant_name }}</span>
                                     </td>
                                 </tr>
                             @endforeach
 
                             <tr>
-                                <td colspan="2" style="padding-bottom: 5px;padding-top: 5px;color:#0C6663;"><strong>Alamat Pengiriman</strong></td>
+                                <td colspan="2" style="padding-bottom: 5px;padding-top: 5px;color:#4fa8d8;"><strong>Alamat Pengiriman</strong></td>
                             </tr>
                             <tr>
-                                <td colspan="2" style="font-size: 14px;color:#303030;padding-bottom: 15px;border-bottom:1px solid #303030;">
+                                <td colspan="2" style="font-size: 14px;color:#24536d;padding-bottom: 15px;border-bottom:1px solid #24536d;">
                                     <span style="margin-bottom: 5px;display: block;">{{ $order_details[0]->receiver_name }}</span>
                                     {{ $order_details[0]->receiver_address }}
                                     <br>
@@ -105,34 +105,34 @@
 
 					<table style="width: 400px;margin:0 auto 20px;">
 						<tr>
-							<td colspan="2" style="padding-bottom: 10px;color:#0C6663;padding-top: 10px;"><strong>Detail Pembayaran</strong></td>
+							<td colspan="2" style="padding-bottom: 10px;color:#4fa8d8;padding-top: 10px;"><strong>Detail Pembayaran</strong></td>
 						</tr>
 						<tr>
-							<td style="padding-bottom:5px;font-size:14px;vertical-align:top;color:#303030;text-align: left;">Subtotal</td>
-							<td style="padding-bottom:5px;font-size:14px;vertical-align:top;color:#303030;text-align: right;">{!! Helper::currency_format($data['invoice']->subtotal, 0, ',', '.', 'Rp', null) !!}</td>
+							<td style="padding-bottom:5px;font-size:14px;vertical-align:top;color:#24536d;text-align: left;">Subtotal</td>
+							<td style="padding-bottom:5px;font-size:14px;vertical-align:top;color:#24536d;text-align: right;">{!! Helper::currency_format($data['invoice']->subtotal, 0, ',', '.', 'Rp', null) !!}</td>
 						</tr>
 						<tr>
-							<td style="padding-bottom:5px;font-size:14px;vertical-align:top;color:#303030;text-align: left;">Ongkos kirim</td>
-							<td style="padding-bottom:5px;font-size:14px;vertical-align:top;color:#303030;text-align: right;">{!! Helper::currency_format($data['invoice']->shipping_fee, 0, ',', '.', 'Rp', null) !!}</td>
+							<td style="padding-bottom:5px;font-size:14px;vertical-align:top;color:#24536d;text-align: left;">Ongkos kirim</td>
+							<td style="padding-bottom:5px;font-size:14px;vertical-align:top;color:#24536d;text-align: right;">{!! Helper::currency_format($data['invoice']->shipping_fee, 0, ',', '.', 'Rp', null) !!}</td>
 						</tr>
 						
                         @if ($data['invoice']->shipping_insurance_fee > 0)
                             <tr>
-                                <td style="padding-bottom:5px;font-size:14px;vertical-align:top;color:#303030;text-align: left;">Asuransi</td>
-                                <td style="padding-bottom:5px;font-size:14px;vertical-align:top;color:#303030;text-align: right;">{!! Helper::currency_format($data['invoice']->shipping_insurance_fee, 0, ',', '.', 'Rp', null) !!}</td>
+                                <td style="padding-bottom:5px;font-size:14px;vertical-align:top;color:#24536d;text-align: left;">Asuransi</td>
+                                <td style="padding-bottom:5px;font-size:14px;vertical-align:top;color:#24536d;text-align: right;">{!! Helper::currency_format($data['invoice']->shipping_insurance_fee, 0, ',', '.', 'Rp', null) !!}</td>
                             </tr>
                         @endif
 
                         @if ($data['invoice']->discount_amount > 0)
                             <tr>
-                                <td style="padding-bottom:5px;font-size:14px;vertical-align:top;color:#303030;text-align: left;">Promo (<strong>{{ $data['invoice']->voucher_code }}</strong>)</td>
-                                <td style="padding-bottom:5px;font-size:14px;vertical-align:top;color:#303030;text-align: right;">-{!! Helper::currency_format($data['invoice']->discount_amount, 0, ',', '.', 'Rp', null) !!}</td>
+                                <td style="padding-bottom:5px;font-size:14px;vertical-align:top;color:#24536d;text-align: left;">Promo (<strong>{{ $data['invoice']->voucher_code }}</strong>)</td>
+                                <td style="padding-bottom:5px;font-size:14px;vertical-align:top;color:#24536d;text-align: right;">-{!! Helper::currency_format($data['invoice']->discount_amount, 0, ',', '.', 'Rp', null) !!}</td>
                             </tr>
                         @endif
 
 						<tr>
-							<td style="padding-bottom:5px;font-size:14px;vertical-align:top;color:#303030;text-align: left;"><strong>Total</strong></td>
-							<td style="padding-bottom:5px;font-size:14px;vertical-align:top;color:#303030;text-align: right;"><strong>{!! Helper::currency_format($data['invoice']->total_amount, 0, ',', '.', 'Rp', null) !!}</strong></td>
+							<td style="padding-bottom:5px;font-size:14px;vertical-align:top;color:#24536d;text-align: left;"><strong>Total</strong></td>
+							<td style="padding-bottom:5px;font-size:14px;vertical-align:top;color:#24536d;text-align: right;"><strong>{!! Helper::currency_format($data['invoice']->total_amount, 0, ',', '.', 'Rp', null) !!}</strong></td>
 						</tr>
 					</table>
 				</td>
@@ -141,20 +141,21 @@
 
 		<tfoot>
 			<tr>
-				<td colspan="2" style="text-align: center;color:#FFF;padding:20px 20px 20px;border-top: 1px solid #959595;font-size: 14px;"><i>Produk masih dalam bentuk prototype. Dana kamu akan dikembalikan jika produk tidak selesai dalam batas waktu yang ditentukan.</i></td>
+				<td colspan="2" style="text-align: center;color:#FFF;padding:20px 20px 20px;border-top: 1px solid #66b9e8;font-size: 14px;"><i>Produk masih dalam bentuk prototype. Dana kamu akan dikembalikan jika produk tidak selesai dalam batas waktu yang ditentukan.</i></td>
 			</tr>
 			<tr>
 				<td colspan="2" style="text-align: center;color:#FFF;padding:0 20px 20px;font-size: 14px;">
-					<strong>Butuh bantuan?</strong> Kami bisa dihubungi lewat <strong>WhatsApp di {!! env('COUNTRY_CODE').$company_info->wa_phone !!}</strong> atau email ke <a href="mailto:help@emaskorner.com" style="color: #fff;">help@emaskorner.com</a>
+					<strong>Butuh bantuan?</strong> Kami bisa dihubungi lewat <strong>WhatsApp di {!! env('COUNTRY_CODE').$company_info->wa_phone !!}</strong> atau email ke <a href="mailto:help@larizzkajaya.com" style="color: #fff;">help@larizzkajaya.com</a>
 				</td>
 			</tr>
 			<tr>
 				<td colspan="2" style="color:#FFF;text-align: center;font-size: 14px;padding:0 0 20px;">
-					EmasKorner<br>
-					Jati Sampurna, Kota Bekasi, Jawa Barat<br>
+					Larizzka Jaya<br>
+					Jl. Nasional 12, RT.6/RW.2, Grogol Selatan., Kec. Kebayoran Lama, Kota Jakarta Selatan<br>
+					Daerah Khusus Ibukota Jakarta 12220<br>
 					Indonesia<br>
-					Follow us on<br> <a href="https://www.instagram.com/emaskorner/" style="display: inline-block;margin-top:5px;"><img style="width: 30px;" src="{{ asset('web/images/instagram.png') }}"></a><br>
-					<p style="font-size: 12px;">Copyright by EmasKorner</p>
+					Follow us on<br> <a href="https://www.instagram.com/larizzkajaya/" style="display: inline-block;margin-top:5px;"><img style="width: 30px;" src="{{ asset('web/images/instagram.png') }}"></a><br>
+					<p style="font-size: 12px;">Copyright by Larizzka Jaya</p>
 				</td>
 			</tr>
 		</tfoot>
