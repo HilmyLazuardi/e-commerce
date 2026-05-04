@@ -9,15 +9,15 @@
 @section('title', $pagetitle)
 
 @section('open_graph')
-    <meta name="description" content="Beli {{ $data->name }} di toko {{ $data->seller_store_name }} Rp{{ number_format($data->price, 0, ',', '.') }} di EmasKorner">
+    <meta name="description" content="Beli {{ $data->name }} di toko {{ $data->seller_store_name }} Rp{{ number_format($data->price, 0, ',', '.') }} di Larizzka Jaya">
     <meta name="keywords" content="{!! str_replace(',', ', ', $global_config->meta_keywords) !!}">
     <meta name="author" content="{!! $global_config->meta_author !!}">
 
     <meta property="og:type" content="product" />
-    <meta property="og:site_name" content="EmasKorner" />
-    <meta property="og:title" content="{{ $data->name }} - EmasKorner" />
+    <meta property="og:site_name" content="Larizzka Jaya" />
+    <meta property="og:title" content="{{ $data->name }} - Larizzka Jaya" />
     <meta property="og:image" content="{{ asset($data->image) }}" />
-    <meta property="og:description" content="Beli {{ $data->name }} di toko {{ $data->seller_store_name }} Rp{{ number_format($data->price, 0, ',', '.') }} di EmasKorner" />
+    <meta property="og:description" content="Beli {{ $data->name }} di toko {{ $data->seller_store_name }} Rp{{ number_format($data->price, 0, ',', '.') }} di Larizzka Jaya" />
     <meta property="og:url" content="{{ Helper::get_url() }}" />
 @endsection
 

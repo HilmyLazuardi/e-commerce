@@ -7,7 +7,7 @@
 @section('content')
 <section class="section_form">
     <div class="container">
-        <div class="logo_box"><h1 title="Lokal Korner"><img src="{{ asset('/web/images/logo_golds.png') }}"></h1></div>
+        <div class="logo_box"><h1 title="Larizzka Jaya"><img src="{{ asset('/web/images/logo_app_blue.png') }}"></h1></div>
         <h2>Lupa Password?</h2>
 
         <div class="form_wrapper form_bg">

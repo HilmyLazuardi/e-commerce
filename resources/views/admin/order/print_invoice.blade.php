@@ -152,8 +152,7 @@
   <div class="invoice-container">
     <div class="header">
       <div class="brand">
-        <img src="{{ asset('web/images/logo.png') }}" alt="EmasKorner Logo" />
-        {{-- <div class="brand-title">EmasKorner</div> --}}
+        <img src="{{ asset('web/images/logo_app_blue.png') }}" alt="Larizzka Jaya Logo" />
       </div>
       <div class="status-label">INVOICE</div>
     </div>

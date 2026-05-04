@@ -8,7 +8,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="target-densitydpi=device-dpi; width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
     <meta name="HandheldFriendly" content="true" />
-	<title>EmasKorner</title>
+	<title>Larizzka Jaya</title>
 	<link rel="stylesheet" type="text/css" href="{{ asset('web/fonts/stylesheet.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('web/css/select2.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('web/css/slick.css') }}">
@@ -46,7 +46,7 @@
 			</div>
 			<div class="follow_box">
 				Follow Us On<br>
-				<a href="https://www.instagram.com/official.emasmini/" target="_blank"><img src="{{ asset('web/images/icon_ig_big.png') }}"> <span>@EmasKorner</span></a>
+				<a href="https://www.instagram.com/larizzkajaya/" target="_blank"><img src="{{ asset('web/images/icon_ig_big.png') }}"> <span>@LarizzkaJaya</span></a>
 			</div>
 		</section>
 	</div>

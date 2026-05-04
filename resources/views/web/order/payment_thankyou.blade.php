@@ -178,7 +178,7 @@
 
         <div class="section_product_list green_bg custom_one">
             <div class="row_clear container">
-                <p style="text-align: center">Terima kasih sudah berbelanja di Toko Kami.<br>Cek juga produk berkualitas lainnya di EmasKorner, ya!</p>
+                <p style="text-align: center">Terima kasih sudah berbelanja di Toko Kami.<br>Cek juga produk berkualitas lainnya di Larizzka Jaya, ya!</p>
                 <h2>Yang Mungkin Kamu Suka</h2>
             </div>
             @if (isset($products[0]))

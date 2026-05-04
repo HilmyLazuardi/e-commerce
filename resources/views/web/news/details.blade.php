@@ -4,7 +4,7 @@
     use App\Libraries\Helper;
 
     $content = json_decode($data->content);
-    $pagetitle = $data->title.' - EmasKorner';
+    $pagetitle = $data->title.' - Larizzka Jaya';
 
     // SET BULAN
     $bulan = array(1 => 'Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember');
