@@ -272,7 +272,7 @@ a {
       font-size: 20px;
       color: #fff; }
       .paging_box ul li a:hover, .paging_box ul li a.selected {
-        color: #D3A381; }
+        color: #cfefff; }
       .paging_box ul li a.prev_btn {
         width: 20px;
         height: 20px;
@@ -1304,7 +1304,7 @@ section {
       padding: 20px; }
       section .section_checkout .co_wrapper .title {
         font-family: 'WorkSansBold';
-        color: #0C6663;
+        color: #4fa8d8;
         font-size: 18px;
         margin-bottom: 20px;
         display: block; }
@@ -1327,7 +1327,7 @@ section {
           margin-top: 20px;
           position: relative; }
           section .section_checkout .co_wrapper .co_box .notes a {
-            color: #0C6663;
+            color: #4fa8d8;
             font-size: 14px; }
         section .section_checkout .co_wrapper .co_box .notes_field {
           display: none;
@@ -1384,7 +1384,7 @@ section {
           display: block;
           margin-bottom: 10px; }
         section .section_checkout .co_wrapper .co_desc .co_pcs {
-          color: #959595;
+          color: #66b9e8;
           font-size: 14px;
           display: block; }
     section .section_checkout .pos_sticky {
@@ -1425,7 +1425,7 @@ section {
           width: 80px;
           float: right;
           height: 48px;
-          background: #0C6663;
+          background: #4fa8d8;
           color: #fff;
           border: none;
           border-radius: 5px;
@@ -1491,7 +1491,7 @@ section {
     position: relative;
     background: #fff; }
     section .seciton_news .nl_box:hover .nl_desc .read_more {
-      background: #B85152; }
+      background: #4fa8d8; }
     section .seciton_news .nl_box:nth-child(3n) {
       margin-right: 0; }
     section .seciton_news .nl_box h3 {
@@ -1500,7 +1500,7 @@ section {
       padding: 0 20px;
       overflow: hidden; }
       section .seciton_news .nl_box h3 a {
-        color: #303030;
+        color: #24536d;
         font-size: 18px;
         display: block;
         line-height: 32px; }
@@ -1513,7 +1513,7 @@ section {
         display: block;
         margin: 0 auto; }
     section .seciton_news .nl_box .nl_desc {
-      color: #B85152;
+      color: #4fa8d8;
       font-size: 16px;
       line-height: 26px;
       text-align: center;
@@ -1525,13 +1525,13 @@ section {
         bottom: 0;
         left: 0;
         color: #fff;
-        background: #D3A381;
+        background: #cfefff;
         display: block;
         padding: 5px 20px;
         text-transform: uppercase;
         font-family: 'WorkSansBold'; }
         section .seciton_news .nl_box .nl_desc .read_more:hover {
-          background: #B85152; }
+          background: #4fa8d8; }
   section .seciton_news .see_btn {
     float: right;
     text-decoration: underline;
@@ -1573,11 +1573,11 @@ section {
       padding: 0 0 20px;
       display: none; }
     section .section_faq .faq_wrapper h2 {
-      color: #B85152;
+      color: #4fa8d8;
       margin-bottom: 20px;
       font-size: 26px; }
     section .section_faq .faq_wrapper h3 {
-      color: #0C6663;
+      color: #4fa8d8;
       font-size: 20px;
       font-family: 'WorkSansBold';
       margin-bottom: 10px; }
@@ -1587,7 +1587,7 @@ section {
     section .order_wrapper .order_top {
       border-bottom: 1px solid #fff;
       text-align: center;
-      color: #959595;
+      color: #66b9e8;
       text-transform: uppercase;
       font-size: 16px; }
       section .order_wrapper .order_top:after {
@@ -1604,7 +1604,7 @@ section {
           border-right: none; }
       section .order_wrapper .order_top span {
         display: block;
-        color: #303030;
+        color: #24536d;
         font-family: 'WorkSansBold';
         /*white-space:nowrap;
         text-overflow:ellipsis;
@@ -1628,7 +1628,7 @@ section {
         float: left;
         width: calc(100% - 110px);
         text-align: left;
-        color: #959595;
+        color: #66b9e8;
         font-size: 14px; }
         section .order_wrapper .order_mid .order_info h4 {
           font-family: 'WorkSans';
@@ -1644,14 +1644,14 @@ section {
     section .order_wrapper .order_bottom {
       padding: 20px 40px;
       text-align: left;
-      color: #959595; }
+      color: #66b9e8; }
       section .order_wrapper .order_bottom span.title {
         margin-left: 0 !important;
         text-transform: uppercase; }
       section .order_wrapper .order_bottom input[type="text"] {
         border: none;
         background: none;
-        border-bottom: 1px solid #959595;
+        border-bottom: 1px solid #66b9e8;
         border-radius: 0;
         padding: 0;
         padding-right: 10px;
@@ -1684,7 +1684,7 @@ section {
       padding-left: 20px;
       text-align: left; }
     section .warning_box a {
-      color: #0C6663;
+      color: #4fa8d8;
       font-family: 'WorkSansBold';
       text-decoration: underline; }
     section .warning_box .text_center {
@@ -1741,14 +1741,14 @@ section {
           cursor: pointer; }
           section .section_product_banner.vtwo .wishlist_btn input[type="checkbox"]:checked + span,
           section .section_product_banner.vtwo .wishlist_btn input[type="radio"]:checked + span {
-            background: #B85152 url("../images/icon_love.png") no-repeat center/20px; }
+            background: #4fa8d8 url("../images/icon_love.png") no-repeat center/20px; }
           section .section_product_banner.vtwo .wishlist_btn input[type="checkbox"] + span,
           section .section_product_banner.vtwo .wishlist_btn input[type="radio"] + span {
             width: 42px;
             height: 42px;
             border-radius: 30px;
             display: block;
-            background: #959595 url("../images/icon_love.png") no-repeat center/20px;
+            background: #66b9e8 url("../images/icon_love.png") no-repeat center/20px;
             position: absolute;
             top: 50%;
             left: 50%;
@@ -1896,7 +1896,7 @@ section {
       letter-spacing: 1px;
       padding-right: 60px; }
     section .section_product_name span.price {
-      color: #FFB683;
+      color: #7bc6ee;
       font-family: 'WorkSansBold';
       font-size: 22px;
       display: block; }
@@ -1938,12 +1938,12 @@ section {
         color: #fff; }
         section .section_product_info .spi_right .flag_text span {
           font-family: 'WorkSansBold';
-          color: #D3A381;
+          color: #cfefff;
           display: block;
           font-size: 20px;
           margin-bottom: 10px; }
         section .section_product_info .spi_right .flag_text .def_btn {
-          background: #B85152;
+          background: #4fa8d8;
           display: block;
           line-height: 43px;
           width: 240px;
@@ -2010,15 +2010,15 @@ section {
       section .section_product_info .form_box .select3 {
         width: 100%; }
       section .section_product_info .form_box .select2-container--default .select2-selection--single .select2-selection__placeholder {
-        color: #AEAEAE;
+        color: #95b3c7;
         opacity: 0.5; }
       section .section_product_info .form_box .select2-container--default .select2-selection--single .select2-selection__rendered {
         line-height: 36px;
-        color: #AEAEAE;
+        color: #95b3c7;
         padding: 0 20px; }
       section .section_product_info .form_box .select2-container .select2-selection--single {
         height: 36px;
-        border: 1px solid #ACACAC;
+        border: 1px solid #95b3c7;
         border-radius: 10px; }
       section .section_product_info .form_box .select2-container--default .select2-selection--single .select2-selection__arrow {
         width: 20px;
@@ -2076,8 +2076,8 @@ section {
         color: #fff;
         font-size: 18px;
         background: rgba(255, 255, 255, 0.5);
-        border-left: 1px solid #0C6663;
-        border-right: 1px solid #0C6663; }
+        border-left: 1px solid #4fa8d8;
+        border-right: 1px solid #4fa8d8; }
         section .section_product_menu .tab_menu li a:hover, section .section_product_menu .tab_menu li a.active {
           background: rgba(255, 255, 255, 0.25); }
     section .section_product_menu .tab_wrapper {
@@ -2106,7 +2106,7 @@ section {
             width: 200px;
             height: 5px;
             display: block;
-            background: #D3A381;
+            background: #cfefff;
             position: absolute;
             bottom: 0;
             left: 0; }
@@ -2126,7 +2126,7 @@ section {
             font-family: 'WorkSans';
             font-size: 24px; }
           section .section_product_menu .tab_wrapper .produsen_box .produsen_name span {
-            color: #D3A381; }
+            color: #cfefff; }
         section .section_product_menu .tab_wrapper .produsen_box .produsen_desc {
           line-height: 24px;
           font-size: 16px; }
@@ -2151,7 +2151,7 @@ section {
       padding: 0; }
       section .section_product_menu .section_content_element .ce_text {
         padding: 0 40px;
-        color: #303030; }
+        color: #24536d; }
     section .section_product_menu #tab-1 {
       display: block; }
   section .share_wrapper .container {
@@ -2160,7 +2160,7 @@ section {
     section .share_wrapper .container h3 {
       font-family: 'WorkSans';
       text-transform: uppercase;
-      color: #959595;
+      color: #66b9e8;
       margin-bottom: 10px; }
   section .share_wrapper .dummy {
     display: inline-block;
@@ -2174,7 +2174,7 @@ section {
       section .section_profile.wishlist h2 {
         text-align: center;
         text-transform: uppercase;
-        color: #0C6663; }
+        color: #4fa8d8; }
       section .section_profile.wishlist .info_wl {
         display: block;
         text-align: center;
@@ -2182,7 +2182,7 @@ section {
         font-family: 'WorkSansBold';
         color: #4E4E4E; }
     section .section_profile.border_bottom {
-      border-bottom: 1px solid #303030; }
+      border-bottom: 1px solid #24536d; }
     section .section_profile .container {
       max-width: 1208px;
       margin: 0 auto; }
@@ -2209,12 +2209,12 @@ section {
           padding: 15px 0;
           display: block; }
           section .section_profile .profile_menu ul li a:hover, section .section_profile .profile_menu ul li a.active {
-            color: #303030;
-            border-bottom: 2px solid #0C6663; }
+            color: #24536d;
+            border-bottom: 2px solid #4fa8d8; }
     section .section_profile .label_box {
       position: relative;
       font-family: 'WorkSans';
-      color: #959595;
+      color: #66b9e8;
       font-size: 16px;
       margin-top: 5px; }
       section .section_profile .label_box input[type="checkbox"] {
@@ -2229,11 +2229,11 @@ section {
         display: inline-block;
         width: 20px;
         height: 20px;
-        border: 1px solid #959595;
+        border: 1px solid #66b9e8;
         vertical-align: middle;
         margin-right: 5px; }
       section .section_profile .label_box a {
-        color: #B85152;
+        color: #4fa8d8;
         font-family: 'WorkSansBold';
         text-decoration: underline; }
     section .section_profile .oh_img {
@@ -2263,7 +2263,7 @@ section {
         width: 100px;
         margin-bottom: 30px; }
       section .section_profile .profile_box h3 {
-        color: #0C6663;
+        color: #4fa8d8;
         font-size: 24px;
         margin-bottom: 20px; }
       section .section_profile .profile_box .profile_picture {
@@ -2279,7 +2279,7 @@ section {
         display: block;
         margin: 0 auto;
         position: relative;
-        background: #959595;
+        background: #66b9e8;
         border-radius: 60px; }
         section .section_profile .profile_box .pp_box:before {
           content: 'Unggah Foto';
@@ -2341,7 +2341,7 @@ section {
           padding: 0 20px;
           font-family: 'WorkSans';
           outline: 0;
-          background: #0C6663;
+          background: #4fa8d8;
           color: #fff;
           font-size: 16px; }
         section .section_profile .profile_box .form_wrapper .inline_block {
@@ -2361,7 +2361,7 @@ section {
                 width: 20px;
                 height: 20px;
                 display: block;
-                border: 1px solid #303030;
+                border: 1px solid #24536d;
                 border-radius: 20px;
                 position: absolute;
                 top: 0;
@@ -2371,7 +2371,7 @@ section {
                 width: 12px;
                 height: 12px;
                 display: none;
-                background: #0C6663;
+                background: #4fa8d8;
                 border-radius: 20px;
                 position: absolute;
                 top: 4px;
@@ -2382,15 +2382,15 @@ section {
         section .section_profile .profile_box .form_wrapper .select3 {
           width: 100%; }
         section .section_profile .profile_box .form_wrapper .select2-container--default .select2-selection--single .select2-selection__placeholder {
-          color: #AEAEAE;
+          color: #95b3c7;
           opacity: 0.5; }
         section .section_profile .profile_box .form_wrapper .select2-container--default .select2-selection--single .select2-selection__rendered {
           line-height: 48px;
-          color: #AEAEAE;
+          color: #95b3c7;
           padding: 0 20px; }
         section .section_profile .profile_box .form_wrapper .select2-container .select2-selection--single {
           height: 48px;
-          border: 1px solid #ACACAC;
+          border: 1px solid #95b3c7;
           border-radius: 10px; }
         section .section_profile .profile_box .form_wrapper .select2-container--default .select2-selection--single .select2-selection__arrow {
           width: 28px;
@@ -2431,17 +2431,17 @@ section {
         text-align: left;
         line-height: 24px;
         padding: 0 20px 20px;
-        border-bottom: 1px solid #959595;
+        border-bottom: 1px solid #66b9e8;
         margin-bottom: 20px; }
         section .section_profile .profile_box .address_box.no_border {
-          border: 1px solid #959595;
+          border: 1px solid #66b9e8;
           padding: 20px;
           border-radius: 10px; }
         section .section_profile .profile_box .address_box.custom_one {
           padding: 0 0 10px;
           margin-bottom: 10px; }
           section .section_profile .profile_box .address_box.custom_one span {
-            color: #959595;
+            color: #66b9e8;
             font-family: 'WorkSans'; }
         section .section_profile .profile_box .address_box.custom_two {
           padding: 0 0 10px;
@@ -2449,7 +2449,7 @@ section {
           border-bottom: 0;
           width: calc(100% - 160px); }
           section .section_profile .profile_box .address_box.custom_two span {
-            color: #959595;
+            color: #66b9e8;
             font-family: 'WorkSans'; }
         section .section_profile .profile_box .address_box .text_center_bold {
           text-align: center;
@@ -2477,7 +2477,7 @@ section {
           text-align: center;
           margin-top: 10px; }
         section .section_profile .profile_box .address_box .set_btn {
-          background: #B85152;
+          background: #4fa8d8;
           padding: 10px 30px;
           padding-right: 30px;
           padding-left: 30px;
@@ -2505,7 +2505,7 @@ section {
       section .section_profile .preview_product.custom_one .yellow_c {
         color: #FFD600; }
       section .section_profile .preview_product.custom_one .green_c {
-        color: #0C6663; }
+        color: #4fa8d8; }
       section .section_profile .preview_product.custom_one .blue_c {
         color: #3D5998; }
       section .section_profile .preview_product table {
@@ -2522,14 +2522,14 @@ section {
             text-align: right; }
           section .section_profile .preview_product table tr td span {
             display: block;
-            color: #959595; }
+            color: #66b9e8; }
           section .section_profile .preview_product table tr td strong {
             font-family: 'WorkSansBold'; }
         section .section_profile .preview_product table tr:last-child td {
           border-top: 1px solid #000;
           padding-top: 10px; }
     section .section_profile .add_address {
-      color: #0C6663;
+      color: #4fa8d8;
       text-decoration: underline;
       margin-top: 5px;
       display: block;
@@ -2564,7 +2564,7 @@ section {
         section .section_profile .order_mid.custom_one .pl_stock_view .sv_info {
           text-align: left;
           font-size: 20px;
-          color: #303030;
+          color: #24536d;
           font-family: 'Bitter'; }
       section .section_profile .order_mid .order_img {
         width: 100px;
@@ -2581,7 +2581,7 @@ section {
         float: left;
         width: calc(100% - 110px);
         text-align: left;
-        color: #959595;
+        color: #66b9e8;
         font-size: 14px; }
         section .section_profile .order_mid .order_info h4 {
           font-family: 'WorkSans';
@@ -2604,15 +2604,15 @@ section {
       section .section_profile .section_history .filter_btn .select3 {
         width: 100%; }
       section .section_profile .section_history .filter_btn .select2-container--default .select2-selection--single .select2-selection__placeholder {
-        color: #AEAEAE;
+        color: #95b3c7;
         opacity: 0.5; }
       section .section_profile .section_history .filter_btn .select2-container--default .select2-selection--single .select2-selection__rendered {
         line-height: 48px;
-        color: #AEAEAE;
+        color: #95b3c7;
         padding: 0 20px; }
       section .section_profile .section_history .filter_btn .select2-container .select2-selection--single {
         height: 48px;
-        border: 1px solid #ACACAC;
+        border: 1px solid #95b3c7;
         border-radius: 10px; }
       section .section_profile .section_history .filter_btn .select2-container--default .select2-selection--single .select2-selection__arrow {
         width: 28px;
@@ -2648,7 +2648,7 @@ section {
         left: 0; }
     section .section_profile .section_history .history_box {
       padding-bottom: 20px;
-      border-bottom: 1px solid #959595;
+      border-bottom: 1px solid #66b9e8;
       margin-bottom: 20px;
       position: relative; }
       section .section_profile .section_history .history_box:after {
@@ -2700,7 +2700,7 @@ section {
               display: inline-block;
               float: right; }
         .other_product {
-          color: #959595;
+          color: #66b9e8;
           font-size: 13px;
           display: block;
           margin-top: 5px;
@@ -2732,14 +2732,14 @@ section {
       margin-bottom: 20px; }
       section .section_profile .section_history .history_top .date {
         display: block;
-        color: #303030; }
+        color: #24536d; }
       section .section_profile .section_history .history_top .order_id {
         font-family: 'WorkSans';
         display: block; }
         section .section_profile .section_history .history_top .order_id a {
           font-family: 'WorkSans';
           text-decoration: underline;
-          color: #0C6663; }
+          color: #4fa8d8; }
       section .section_profile .section_history .history_top .label_status {
         position: absolute;
         top: 0;
@@ -2751,13 +2751,13 @@ section {
         border-radius: 5px;
         font-size: 14px; }
         section .section_profile .section_history .history_top .label_status.green_label {
-          background: #0C6663;
+          background: #4fa8d8;
           color: #fff; }
         section .section_profile .section_history .history_top .label_status.yellow_label {
           background: #FFD600;
-          color: #303030; }
+          color: #24536d; }
         section .section_profile .section_history .history_top .label_status.red_label {
-          background: #B85152;
+          background: #4fa8d8;
           color: #fff; }
         section .section_profile .section_history .history_top .label_status.blue_label {
           background: #3D5998;
@@ -2784,11 +2784,11 @@ section {
         position: relative;
         width: calc(100% - 200px); }
         section .section_profile .section_history .history_bot .history_info .product_toko {
-          color: #959595; }
+          color: #66b9e8; }
         section .section_profile .section_history .history_bot .history_info .product_total {
-          color: #959595; }
+          color: #66b9e8; }
         section .section_profile .section_history .history_bot .history_info .product_varian {
-          color: #959595; }
+          color: #66b9e8; }
         section .section_profile .section_history .history_bot .history_info .product_price {
           position: absolute;
           top: 0;
@@ -2840,15 +2840,15 @@ section {
     section .sort_box .select2-container {
       width: 200px; }
     section .sort_box .select2-container--default .select2-selection--single .select2-selection__placeholder {
-      color: #AEAEAE;
+      color: #95b3c7;
       opacity: 0.5; }
     section .sort_box .select2-container--default .select2-selection--single .select2-selection__rendered {
       line-height: 36px;
-      color: #AEAEAE;
+      color: #95b3c7;
       padding: 0 15px; }
     section .sort_box .select2-container .select2-selection--single {
       height: 36px;
-      border: 1px solid #ACACAC;
+      border: 1px solid #95b3c7;
       border-radius: 10px; }
     section .sort_box .select2-container--default .select2-selection--single .select2-selection__arrow {
       width: 28px;
@@ -2868,7 +2868,7 @@ section {
     section .button_wrapper_new .def_btn {
       min-width: 240px;
       display: inline-block;
-      background: #B85152;
+      background: #4fa8d8;
       border: none;
       padding: 10px 20px;
       height: 43px;
@@ -2911,7 +2911,7 @@ section {
             font-family: 'WorkSans';
             font-size: 12px; }
             section .section_cart_wrapper .scw_right .pos_sticky ul li a {
-              color: #D3A381;
+              color: #cfefff;
               text-decoration: underline; }
         section .section_cart_wrapper .scw_right .pos_sticky .row_clear {
           margin-bottom: 10px; }
@@ -2953,7 +2953,7 @@ section {
   section .empty_box {
     padding: 60px 20px;
     background: #E6E6E6;
-    color: #0C6663; }
+    color: #4fa8d8; }
   section .section_cart {
     padding: 20px;
     background: #E6E6E6;
@@ -2983,12 +2983,12 @@ section {
         opacity: 0; }
         section .section_cart .label_seller input[type="checkbox"]:checked + span:before,
         section .section_cart .label_product input[type="checkbox"]:checked + span:before {
-          background: #B85152 url("../images/icon_checklist_white.png") no-repeat center/15px;
+          background: #4fa8d8 url("../images/icon_checklist_white.png") no-repeat center/15px;
           border: none; }
       section .section_cart .label_seller span,
       section .section_cart .label_product span {
         display: block;
-        color: #0C6663;
+        color: #4fa8d8;
         font-family: 'WorkSansBold'; }
         section .section_cart .label_seller span:before,
         section .section_cart .label_product span:before {
@@ -3019,7 +3019,7 @@ section {
         position: relative;
         margin-top: 10px; }
         section .section_cart .cart_product_wrapper .notes a {
-          color: #0C6663;
+          color: #4fa8d8;
           font-size: 14px; }
       section .section_cart .cart_product_wrapper .notes_field {
         display: none;
@@ -3070,7 +3070,7 @@ section {
           color: #000;
           display: block; }
         section .section_cart .cart_product_wrapper .cp_desc .weight {
-          color: #959595;
+          color: #66b9e8;
           font-size: 14px;
           display: block; }
         section .section_cart .cart_product_wrapper .cp_desc .soldout {
@@ -3078,7 +3078,7 @@ section {
           padding: 7px 20px;
           border-radius: 5px;
           margin-bottom: 10px;
-          background: #B85152;
+          background: #4fa8d8;
           color: #fff;
           text-align: center; }
         section .section_cart .cart_product_wrapper .cp_desc .finished {
@@ -3157,7 +3157,7 @@ section {
       z-index: 10;
       opacity: 0; }
       section .ca_btn input[type="checkbox"]:checked + span:before {
-        background: #B85152 url("../images/icon_checklist_white.png") no-repeat center/15px;
+        background: #4fa8d8 url("../images/icon_checklist_white.png") no-repeat center/15px;
         border: none; }
     section .ca_btn span {
       display: block; }
@@ -3173,7 +3173,7 @@ section {
   section .delete_btn {
     float: right; }
     section .delete_btn a {
-      color: #0C6663; }
+      color: #4fa8d8; }
   section .section_about_home {
     padding: 60px 0;
     margin-bottom: 20px; }
@@ -3192,23 +3192,23 @@ section {
       section .section_about_home.section_product.white_bg {
         background: #fff; }
         section .section_about_home.section_product.white_bg a {
-          color: #303030; }
+          color: #24536d; }
           section .section_about_home.section_product.white_bg a:hover {
-            color: #0C6663;
+            color: #4fa8d8;
             text-decoration: underline; }
         section .section_about_home.section_product.white_bg span {
-          color: #303030; }
+          color: #24536d; }
         section .section_about_home.section_product.white_bg .pp_price {
-          color: #0C6663; }
+          color: #4fa8d8; }
         section .section_about_home.section_product.white_bg .pp_desc {
-          color: #303030; }
+          color: #24536d; }
         section .section_about_home.section_product.white_bg .pl_stock_view .sv_track {
-          background: #0C6663; }
+          background: #4fa8d8; }
         section .section_about_home.section_product.white_bg .pl_stock_view .sv_info {
-          color: #303030; }
+          color: #24536d; }
         section .section_about_home.section_product.white_bg .detail_btn {
           color: #fff;
-          background: #0C6663 url(../images/icon_arrow_right2.png) no-repeat right 20px center/20px;
+          background: #4fa8d8 url(../images/icon_arrow_right2.png) no-repeat right 20px center/20px;
           transition: all 0.5s ease; }
           section .section_about_home.section_product.white_bg .detail_btn:hover {
             background: #00AE70 url(../images/icon_arrow_right2.png) no-repeat right 20px center/20px;
@@ -3220,14 +3220,14 @@ section {
           letter-spacing: 1px;
           margin-bottom: 20px;
           letter-spacing: normal;
-          color: #0C6663;
+          color: #4fa8d8;
           text-align: center; }
           section .section_about_home.section_product.white_bg .container h2:after {
             content: '';
             width: 100px;
             height: 2px;
-            background: #303030;
-            color: #303030;
+            background: #24536d;
+            color: #24536d;
             display: block;
             margin: 15px auto 60px; }
     section .section_about_home .container {
@@ -3252,7 +3252,7 @@ section {
       section .section_about_home .container p span {
         text-transform: uppercase;
         font-size: 36px;
-        color: #D3A381; }
+        color: #cfefff; }
   section .section_product_list {
     margin-bottom: 50px; }
     section .section_product_list.green_bg {
@@ -3284,19 +3284,19 @@ section {
         height: 44px;
         overflow: hidden; }
       section .section_product_list.custom_one.white_bg {
-        color: #303030;
+        color: #24536d;
         background: #fff; }
         section .section_product_list.custom_one.white_bg .container h2 {
-          color: #0C6663; }
+          color: #4fa8d8; }
           section .section_product_list.custom_one.white_bg .container h2:after {
             content: '';
             width: 100px;
             height: 2px;
-            background: #303030;
+            background: #24536d;
             display: block;
             margin: 15px auto 60px; }
         section .section_product_list.custom_one.white_bg .detail_btn {
-          background: #0C6663;
+          background: #4fa8d8;
           transition: all 0.5s ease; }
           section .section_product_list.custom_one.white_bg .detail_btn:hover {
             background: #00AE70;
@@ -3309,17 +3309,17 @@ section {
           background: #F0F0F0;
           border-radius: 20px; }
         section .section_product_list.custom_one.white_bg .product_list {
-          background: #0C6663; }
+          background: #4fa8d8; }
           section .section_product_list.custom_one.white_bg .product_list .pl_name a {
-            color: #303030; }
+            color: #24536d; }
           section .section_product_list.custom_one.white_bg .product_list .pl_price {
-            color: #FFB683 !important; }
+            color: #7bc6ee !important; }
           section .section_product_list.custom_one.white_bg .product_list .pl_owner {
-            color: #303030; }
+            color: #24536d; }
             section .section_product_list.custom_one.white_bg .product_list .pl_owner a {
-              color: #303030; }
+              color: #24536d; }
           section .section_product_list.custom_one.white_bg .product_list .pl_desc {
-            color: #303030 !important; }
+            color: #24536d !important; }
       section .section_product_list.custom_one.custom_keranjang {
         background: #E6E6E6;
         border-top: 4px solid #fff;
@@ -3330,14 +3330,14 @@ section {
           font-family: 'WorkSansBold'; }
           section .section_product_list.custom_one.custom_keranjang .ck_title a {
             float: right;
-            color: #0C6663; }
+            color: #4fa8d8; }
         section .section_product_list.custom_one.custom_keranjang .slick-prev {
           left: -24px !important;
           opacity: 0.75; }
         section .section_product_list.custom_one.custom_keranjang .slick-next {
           opacity: 0.75; }
         section .section_product_list.custom_one.custom_keranjang .product_list {
-          background: #0C6663;
+          background: #4fa8d8;
           width: 145px;
           margin: 0 auto 20px;
           padding-bottom: 5px; }
@@ -3351,7 +3351,7 @@ section {
             color: #fff;
             font-size: 12px; }
           section .section_product_list.custom_one.custom_keranjang .product_list .pl_price {
-            color: #0C6663;
+            color: #4fa8d8;
             font-size: 16px; }
           section .section_product_list.custom_one.custom_keranjang .product_list .pl_owner {
             color: #fff;
@@ -3373,9 +3373,9 @@ section {
     section .section_product_list.white_bg .paging_box.black_arrow ul li a.next_btn {
       background: url(../images/icon_arrow_right_black.png) no-repeat center/contain; }
     section .section_product_list.white_bg .paging_box ul li {
-      color: #303030; }
+      color: #24536d; }
       section .section_product_list.white_bg .paging_box ul li a {
-        color: #303030; }
+        color: #24536d; }
         section .section_product_list.white_bg .paging_box ul li a.selected {
           color: #cfefff; }
         section .section_product_list.white_bg .paging_box ul li a.prev_btn {
@@ -3387,7 +3387,7 @@ section {
       section .section_product_list.search_result .product_list_box:nth-child(4n) {
         margin-right: 0; }
     section .section_product_list.search_result .search_text {
-      color: #fff;
+      color: #cfefff;
       font-size: 18px;
       padding: 20px 0; }
     section .section_product_list .container {
@@ -3398,7 +3398,7 @@ section {
         letter-spacing: 1px;
         margin-bottom: 20px;
         letter-spacing: normal;
-        color: #D3A381; }
+        color: #cfefff; }
     section .section_product_list .prod_desc {
       color: #fff;
       padding-bottom: 20px; }
@@ -3406,7 +3406,7 @@ section {
         line-height: 24px;
         margin-bottom: 20px; }
       section .section_product_list .prod_desc span {
-        color: #D3A381;
+        color: #cfefff;
         display: block;
         text-align: right; }
     section .section_product_list .pl_wishlist {
@@ -3441,13 +3441,13 @@ section {
           z-index: 10;
           opacity: 0; }
           section .section_product_list .product_list_box.wishlist .checklist_box input[type="checkbox"]:checked + span {
-            background: #B85152 url("../images/icon_checklist_white.png") no-repeat center/15px;
+            background: #4fa8d8 url("../images/icon_checklist_white.png") no-repeat center/15px;
             border: none; }
         section .section_product_list .product_list_box.wishlist .checklist_box span {
           width: 20px;
           height: 20px;
           display: block;
-          border: 2px solid #959595;
+          border: 2px solid #66b9e8;
           border-radius: 5px;
           background: #fff; }
       section .section_product_list .product_list_box.wishlist .product_list {
@@ -3459,21 +3459,21 @@ section {
           section .section_product_list .product_list_box.wishlist .product_list .pl_owner a {
             color: #fff; }
         section .section_product_list .product_list_box.wishlist .product_list .pl_price {
-          color: #FFB683; }
+          color: #7bc6ee; }
         section .section_product_list .product_list_box.wishlist .product_list .cart_btn {
           background: #F0F0F0;
           border-radius: 5px;
           display: block;
           padding: 5px 0;
           text-align: center;
-          color: #0C6663; }
+          color: #4fa8d8; }
       section .section_product_list .product_list_box.soldout .product_list {
         background: #747474; }
         section .section_product_list .product_list_box.soldout .product_list .pl_img:after {
           content: 'Habis';
           display: block;
           padding: 10px 20px;
-          background: #B85152;
+          background: #4fa8d8;
           position: absolute;
           bottom: 0;
           left: 0;
@@ -3558,7 +3558,7 @@ section {
               text-align: left;
               font-size: 16px; }
               section .section_product_list .product_list_box.custom_one .product_list:nth-child(2) .pl_name a:hover {
-                color: #0C6663;
+                color: #4fa8d8;
                 text-decoration: underline; }
             section .section_product_list .product_list_box.custom_one .product_list:nth-child(2) .pl_owner {
               text-align: left; }
@@ -3790,7 +3790,7 @@ section {
     section .section_product_list .detail_btn {
       width: 100%;
       display: block;
-      background: #D3A381;
+      background: #cfefff;
       padding: 10px 0;
       text-align: center;
       margin: 10px auto 0;
@@ -3798,7 +3798,7 @@ section {
       transition: all 0.5s ease; }
       section .section_product_list .detail_btn:hover {
         transition: all 0.5s ease;
-        background: #B85152; }
+        background: #4fa8d8; }
       section .section_product_list .detail_btn span {
         background: url(../images/icon_arrow_right2.png) no-repeat right 20px center/18px;
         padding-right: 40px;
@@ -3866,7 +3866,7 @@ section {
       section .section_product .pl_stock_view .sv_track .sv_bar {
         display: block;
         height: 5px;
-        background: #B85152; }
+        background: #4fa8d8; }
     section .section_product .pl_stock_view .sv_info {
       text-align: center;
       font-size: 16px;
@@ -3906,7 +3906,7 @@ section {
     display: block;
     margin: 5px 0; }
   section .section_product .pp_price {
-    color: #FFB683;
+    color: #7bc6ee;
     font-family: 'WorkSansBold';
     font-size: 24px;
     margin-bottom: 10px; }
@@ -3964,11 +3964,11 @@ section {
         display: inline-block;
         width: 20px;
         height: 20px;
-        border: 1px solid #959595;
+        border: 1px solid #66b9e8;
         vertical-align: middle;
         margin-right: 5px; }
       section.section_form .label_box a {
-        color: #B85152;
+        color: #4fa8d8;
         font-family: 'WorkSansBold';
         text-decoration: underline; }
     section.section_form .form_wrapper {
@@ -3980,7 +3980,7 @@ section {
       section.section_form .button_box .red_btn {
         display: inline-block;
         padding: 10px 30px;
-        background: #B85152;
+        background: #4fa8d8;
         border: none;
         color: #fff;
         font-family: 'WorkSansBold';
@@ -3992,12 +3992,12 @@ section {
         margin: 0 10px; }
     section.section_form .misc_box {
       text-align: center;
-      color: #959595;
+      color: #66b9e8;
       font-family: 'WorkSans';
       font-size: 16px;
       margin-bottom: 20px; }
       section.section_form .misc_box a {
-        color: #B85152;
+        color: #4fa8d8;
         font-family: 'WorkSansBold';
         text-decoration: underline; }
       section.section_form .misc_box.font_15 {
@@ -4005,7 +4005,7 @@ section {
     section.section_form .other_box {
       max-width: 420px;
       margin: 0 auto 20px;
-      color: #959595;
+      color: #66b9e8;
       text-transform: uppercase;
       position: relative;
       text-align: center; }
@@ -4054,8 +4054,8 @@ section {
         float: none;
         margin: 0 auto;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border: 1px solid #959595;
-        color: #959595;
+        border: 1px solid #66b9e8;
+        color: #66b9e8;
         font-family: 'WorkSansBold';
         line-height: 46px;
         padding-left: 70px;
@@ -4063,7 +4063,7 @@ section {
         letter-spacing: 1px;
         border-radius: 10px; }
     section.section_form .resend_btn {
-      color: #B85152;
+      color: #4fa8d8;
       text-align: center;
       display: block;
       font-size: 16px; }
@@ -4101,7 +4101,7 @@ section {
     section .section_thanks .container .logo_warning {
       width: 60px; }
     section .section_thanks .container h3 {
-      color: #0C6663;
+      color: #4fa8d8;
       font-size: 22px;
       margin-bottom: 20px; }
     section .section_thanks .container p {
@@ -4115,7 +4115,7 @@ section {
       section .section_thanks .container .button_wrapper .red_btn {
         min-width: 180px;
         display: inline-block;
-        background: #B85152;
+        background: #4fa8d8;
         border: none;
         padding: 10px 20px;
         height: 43px;
@@ -4155,7 +4155,7 @@ section {
       overflow: hidden;
       position: relative; }
       section .section_latest_news .slider_news .nl_box:hover .nl_desc .read_more {
-        background: #B85152; }
+        background: #4fa8d8; }
       section .section_latest_news .slider_news .nl_box:nth-child(3n) {
         margin-right: 0; }
       section .section_latest_news .slider_news .nl_box .nl_img {
@@ -4174,7 +4174,7 @@ section {
         padding: 0 20px;
         overflow: hidden; }
         section .section_latest_news .slider_news .nl_box h3 a {
-          color: #303030;
+          color: #24536d;
           font-size: 18px;
           display: block; }
       section .section_latest_news .slider_news .nl_box .nl_img img {
@@ -4182,7 +4182,7 @@ section {
         display: block;
         margin: 0 auto; }
       section .section_latest_news .slider_news .nl_box .nl_desc {
-        color: #B85152;
+        color: #4fa8d8;
         font-size: 16px;
         line-height: 26px;
         text-align: center;
@@ -4194,13 +4194,13 @@ section {
           bottom: 0;
           left: 0;
           color: #fff;
-          background: #D3A381;
+          background: #cfefff;
           display: block;
           padding: 5px 20px;
           text-transform: uppercase;
           font-family: 'WorkSansBold'; }
           section .section_latest_news .slider_news .nl_box .nl_desc .read_more:hover {
-            background: #B85152; }
+            background: #4fa8d8; }
     section .section_latest_news .slider_news .ln_box {
       width: 310px; }
     section .section_latest_news .slider_news .ln_img {
@@ -4230,7 +4230,7 @@ section {
         line-height: 22px;
         font-size: 16px; }
         section .section_latest_news .slider_news .ln_info h4 a {
-          color: #303030; }
+          color: #24536d; }
   section .section_filter {
     margin-bottom: 20px; }
     section .section_filter .container {
@@ -4255,13 +4255,13 @@ section {
       background: url(../images/icon_filter.png) no-repeat left center/20px;
       padding-left: 25px;
       line-height: 50px;
-      color: #fff;
+      color: #cfefff;
       display: inline-block;
       vertical-align: middle;
       cursor: pointer; }
 
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
-  background-color: #0C6663; }
+  background-color: #4fa8d8; }
 
 #sharethis_box {
   position: absolute;
@@ -4281,7 +4281,7 @@ section {
     max-width: 960px;
     margin: 0 auto; }
     .section_content_element_simple .container h3 {
-      color: #0C6663;
+      color: #4fa8d8;
       margin-bottom: 20px; }
     .section_content_element_simple .container .sce_image {
       width: 100%;
@@ -4291,7 +4291,7 @@ section {
         display: block;
         margin: 0 auto; }
     .section_content_element_simple .container .sce_text {
-      color: #303030;
+      color: #24536d;
       font-size: 16px;
       line-height: 22px;
       margin-bottom: 20px; }
@@ -4341,7 +4341,7 @@ section {
         max-width: 100%; }
     .section_content_element_simple .container .sce_desc_right {
       font-size: 16px;
-      color: #303030;
+      color: #24536d;
       line-height: 22px;
       text-align: justify; }
       .section_content_element_simple .container .sce_desc_right p {
@@ -4366,7 +4366,7 @@ section {
         max-width: 100%; }
     .section_content_element_simple .container .sce_desc_left {
       font-size: 16px;
-      color: #303030;
+      color: #24536d;
       line-height: 22px;
       text-align: justify; }
       .section_content_element_simple .container .sce_desc_left h1, .section_content_element_simple .container .sce_desc_left h2, .section_content_element_simple .container .sce_desc_left h3, .section_content_element_simple .container .sce_desc_left h4, .section_content_element_simple .container .sce_desc_left h5 {
@@ -4427,7 +4427,7 @@ section {
     transform: translate(-50%, -50%); }
     .popup_voucher .popup_voucher_box h3, .popup_voucher .popup_voucher_box h4 {
       font-family: 'workSansBold';
-      color: #0C6663;
+      color: #4fa8d8;
       margin-bottom: 10px; }
     .popup_voucher .popup_voucher_box p {
       margin-bottom: 20px; }
@@ -4688,7 +4688,7 @@ footer {
       background: #fff;
       z-index: 10; }
       .popup_filter .popup_box .filter_top .reset_btn {
-        color: #B85152;
+        color: #4fa8d8;
         border: none;
         background: none;
         position: absolute;
@@ -4793,7 +4793,7 @@ footer {
       .popup_filter .popup_box .filter_box .form_filter span {
         width: 20px;
         height: 2px;
-        background: #303030;
+        background: #24536d;
         display: inline-block;
         vertical-align: middle;
         margin: 0 5px; }
@@ -4801,7 +4801,7 @@ footer {
       text-align: center; }
       .popup_filter .popup_box .button_wrapper .red_btn {
         display: inline-block;
-        background: #B85152;
+        background: #4fa8d8;
         border: none;
         padding: 10px 20px;
         height: 43px;
@@ -4903,7 +4903,7 @@ footer {
     .popup_failed .popup_box .icon_box {
       width: 42px;
       height: 42px;
-      background: #0C6663;
+      background: #4fa8d8;
       border-radius: 40px;
       position: relative;
       margin: 0 auto 10px; }
@@ -5000,7 +5000,7 @@ footer {
       header .popup_menu .popup_box ul {
         margin-bottom: 40px; }
         header .popup_menu .popup_box ul li a {
-          color: #303030;
+          color: #24536d;
           font-family: 'WorkSansBold';
           font-size: 16px;
           padding: 10px 0;
@@ -5026,7 +5026,7 @@ footer {
         font-family: 'WorkSans';
         padding: 5px 0; }
         header .popup_menu .popup_box .popup_cat ul li a span {
-          color: #B85152; }
+          color: #4fa8d8; }
 
   section {
     padding-top: 60px; }
@@ -5438,15 +5438,15 @@ footer {
   section .section_checkout .select2-container {
     width: 100% !important; }
   section .section_checkout .select2-container--default .select2-selection--single .select2-selection__placeholder {
-    color: #AEAEAE;
+    color: #95b3c7;
     opacity: 0.5; }
   section .section_checkout .select2-container--default .select2-selection--single .select2-selection__rendered {
     line-height: 36px;
-    color: #AEAEAE;
+    color: #95b3c7;
     padding: 0 20px; }
   section .section_checkout .select2-container .select2-selection--single {
     height: 36px;
-    border: 1px solid #ACACAC;
+    border: 1px solid #95b3c7;
     border-radius: 5px; }
   section .section_checkout .select2-container--default .select2-selection--single .select2-selection__arrow {
     width: 18px;
@@ -5621,7 +5621,7 @@ footer {
       right: 10px;
       border-top: 0; }
   section .section_product_list .container h2 {
-    color: #D3A381; }
+    color: #cfefff; }
   section .section_product_list .product_list .pl_name h4 {
     height: 66px;
     overflow: hidden; }
@@ -5647,7 +5647,7 @@ footer {
         text-transform: none; }
       section .section_about_home .container h2 {
         margin-bottom: 10px;
-        color: #D3A381; }
+        color: #cfefff; }
       section .section_about_home .container p span {
         font-size: 28px; }
   section .section_product_list.custom_one {
@@ -5954,7 +5954,7 @@ footer {
       line-height: 24px; }
     section .section_content_element h2 {
       font-size: 18px;
-      color: #D3A381;
+      color: #cfefff;
       margin-bottom: 10px; }
     section .section_content_element h3 {
       font-size: 20px;
@@ -5962,14 +5962,14 @@ footer {
       line-height: 32px; }
     section .section_content_element h4 {
       font-size: 18px;
-      color: #D3A381;
+      color: #cfefff;
       margin-bottom: 10px;
       text-align: unset; }
     section .section_content_element.green_bg .ce_column .flex_box .content_box .content,
     section .section_content_element.green_bg .ce_column_custom1 .flex_box .content_box .content {
       padding-top: 0; }
   section .section_latest_news .container h2 {
-    color: #D3A381;
+    color: #cfefff;
     font-size: 20px; }
   section .section_latest_news .slick-dots {
     margin-top: 0; }
