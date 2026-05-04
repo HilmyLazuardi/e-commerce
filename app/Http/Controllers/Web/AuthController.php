@@ -140,10 +140,10 @@ class AuthController extends Controller
             if ($request->provider && ($request->provider == 'google' || $request->provider == 'facebook')) {
                 // IF REGISTER BY PROVIDER
                 $email_template     = 'emails.buyer_thanks_register';
-                $this_subject       = 'Akun EmasKorner Kamu Sudah Aktif';
+                $this_subject       = 'Akun Larizzka Jaya Kamu Sudah Aktif';
 
                 $content                = [];
-                $content['title']       = 'Akun EmasKorner Kamu Sudah Aktif';
+                $content['title']       = 'Akun Larizzka Jaya Kamu Sudah Aktif';
                 $content['email']       = $email;
                 $content['content']     = 'Email <strong style="color:#3A3A3A !important;">' . $content['email'] . '</strong> sudah berhasil diverifikasi.';
                 $company_info = HelperWeb::get_company_info();
@@ -229,10 +229,10 @@ class AuthController extends Controller
             // SET EMAIL CONTENT TO USER
             $email          = $buyer->email;
             $email_template = 'emails.buyer_thanks_register';
-            $this_subject   = 'Akun EmasKorner Kamu Sudah Aktif';
+            $this_subject   = 'Akun Larizzka Jaya Kamu Sudah Aktif';
 
             $content                = [];
-            $content['title']       = 'Akun EmasKorner Kamu Sudah Aktif';
+            $content['title']       = 'Akun Larizzka Jaya Kamu Sudah Aktif';
             $content['email']       = $email;
             $content['content']     = 'Email <strong style="color:#3A3A3A !important;">' . $content['email'] . '</strong> sudah berhasil diverifikasi.';
             $company_info = HelperWeb::get_company_info();
@@ -475,7 +475,7 @@ class AuthController extends Controller
             $content                = [];
             $content['title']       = 'Konfirmasi Penggantian Password Akun Kamu';
             $content['email']       = $buyer->email;
-            $content['content']     = 'Password kamu berhasil diganti. <br><br>Untuk keamanan, jangan beritahukan password kamu ke siapa pun termasuk tim EmasKorner.';
+            $content['content']     = 'Password kamu berhasil diganti. <br><br>Untuk keamanan, jangan beritahukan password kamu ke siapa pun termasuk tim Larizzka Jaya.';
             $company_info = HelperWeb::get_company_info();
             $content['wa_number']   = env('COUNTRY_CODE').$company_info->wa_phone;
             $content['wa_link']     = 'https://wa.me/62' . $company_info->wa_phone;
@@ -723,7 +723,7 @@ class AuthController extends Controller
             $content                = [];
             $content['title']       = 'Konfirmasi Penggantian Password Akun Kamu';
             $content['name']        = isset($buyer->fullname) ? $buyer->fullname : $buyer->email;
-            $content['content']     = 'Password akun EmasKorner Anda telah berhasil direset';
+            $content['content']     = 'Password akun Larizzka Jaya Anda telah berhasil direset';
             $company_info = HelperWeb::get_company_info();
             $content['wa_number']   = env('COUNTRY_CODE').$company_info->wa_phone;
             $content['wa_link']     = 'https://wa.me/62' . $company_info->wa_phone;
@@ -1115,10 +1115,10 @@ class AuthController extends Controller
             }
 
             // SEND EMAIL
-            $this_subject           = '[EmasKorner] Perubahan Email';
+            $this_subject           = '[Larizzka Jaya] Perubahan Email';
 
             $content                = [];
-            $content['title']       = '[EmasKorner] Perubahan Email';
+            $content['title']       = '[Larizzka Jaya] Perubahan Email';
             $content['content']     = 'Mohon konfirmasi perubahan email anda di link berikut ' . route('web.auth.confirm_change_email', $token);
             $content['email']       = $user_new_email;
             $email                  = $user_new_email;
@@ -1254,10 +1254,10 @@ class AuthController extends Controller
         $exist_data->save();
 
         // SEND EMAIL
-        $this_subject           = '[EmasKorner] Perubahan Email';
+        $this_subject           = '[Larizzka Jaya] Perubahan Email';
 
         $content                = [];
-        $content['title']       = '[EmasKorner] Perubahan Email';
+        $content['title']       = '[Larizzka Jaya] Perubahan Email';
         $content['content']     = 'Mohon konfirmasi perubahan email anda di link berikut ' . route('web.auth.confirm_change_email', $exist_data->token);
         $content['email']       = $exist_data->user_new_email;
         $email                  = $exist_data->user_new_email;

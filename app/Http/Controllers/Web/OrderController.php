@@ -792,7 +792,7 @@ class OrderController extends Controller
             // create invoice
             $external_id = $insert->transaction_id;  // used transaction_id from order
             $amount = $insert->price_total;
-            $description = 'EmasKorner';
+            $description = 'Larizzka Jaya';
             $payer_email = Session::get('buyer')->email;
             $order_id = $insert->id;
             $invoice = XenditLaravel::create_invoice($external_id, $amount, $description, $payer_email, $order_id);

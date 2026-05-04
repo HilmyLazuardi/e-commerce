@@ -673,7 +673,7 @@ class TransactionController extends Controller
 
                     // sementara di-hardcoded ke AnterAja
                     $order->shipper_id              = 2;
-                    $order->shipper_name            = 'EmasKorner';
+                    $order->shipper_name            = 'Larizzka Jaya';
 
                     // get shipping details per seller
                     $shipping_per_seller_details = $shipping_per_seller[$seller_id];
@@ -760,7 +760,7 @@ class TransactionController extends Controller
                 // create invoice for payment gateway
                 $external_id = $invoice->invoice_no;  // used invoice_no from invoices table
                 $amount = $invoice->total_amount;
-                $description = 'EmasKorner';
+                $description = 'Larizzka Jaya';
                 $payer_email = $buyer->email;
                 $payment_invoice = XenditLaravel::create_invoice($external_id, $amount, $description, $payer_email, $invoice_id);
                 // dd($payment_invoice, $payment_invoice['request'], $invoice['request'], $invoice['response'], $invoice);
