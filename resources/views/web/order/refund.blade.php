@@ -29,7 +29,7 @@
     <section class="white_bg no_categories">
         <div class="section_profile">
             <div class="profile_menu">
-                <img class="logo" src="{{ asset('web/images/icon_square.png') }}">
+                <img class="logo" src="{{ asset('web/images/logo_app_blue.png') }}">
             </div>
             <div class="section_history">
                 <div class="container">

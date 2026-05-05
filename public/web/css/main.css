@@ -417,7 +417,6 @@ header {
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     transform: translateY(-50%);
-    /*background:url(../images/logo.png) no-repeat center / contain;*/
     background: url(../images/logo_app_blue.png) no-repeat center/contain;
     text-indent: -9999px;
     color: transparent; }
@@ -479,7 +478,7 @@ header {
         display: block; }
         header .header_right .h_cart .cart_btn span {
           background: var(--water-700);
-          color: #fff;
+          color: #D3A381;
           width: 22px;
           height: 22px;
           border-radius: 22px;
@@ -3398,7 +3397,7 @@ section {
         letter-spacing: 1px;
         margin-bottom: 20px;
         letter-spacing: normal;
-        color: #cfefff; }
+        color: #D3A381; }
     section .section_product_list .prod_desc {
       color: #fff;
       padding-bottom: 20px; }
@@ -3406,7 +3405,7 @@ section {
         line-height: 24px;
         margin-bottom: 20px; }
       section .section_product_list .prod_desc span {
-        color: #cfefff;
+        color: #D3A381;
         display: block;
         text-align: right; }
     section .section_product_list .pl_wishlist {
