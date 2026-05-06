@@ -76,7 +76,7 @@
         <style>
             body {
                 background: #eaf7ff;
-                color: #24536d;
+                color: #2f8fc7;
             }
 
             .popup_alert .overlay {

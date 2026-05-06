@@ -38,7 +38,7 @@
         <div class="section_profile">
             <div class="profile_box custom_one">
                 <div class="container">
-                    <img class="logo" src="{{ asset('images/icon_square.png') }}">
+                    <img class="logo" src="{{ asset('images/logo_app_blue.png') }}">
                     <h3>Detail Pesanan</h3>
                 </div>
                 <div class="container">

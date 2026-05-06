@@ -89,15 +89,16 @@
                         <center>
                             <img src="{{ asset($global_config->app_logo) }}" class="img-responsive" alt="{!! $global_config->app_name !!}" style="max-width: 150px; max-height: 150px;">
                         </center>
-                        <form action="{{ route('admin.login.auth') }}" method="POST" id="submitform">
+                        <form action="{{ route('admin.login.auth') }}" method="POST" id="submitform" class="mineral-login-form">
                             @csrf
 
-                            <h1>{{ ucwords(lang('admin login form', $translations)) }}</h1>
+                            <h1 class="mineral-login-title">{{ ucwords(lang('admin login form', $translations)) }}</h1>
+                            <p class="mineral-login-subtitle">{{ ucwords(lang('Sign in to your admin dashboard', $translations)) }}</p>
                             <div>
-                                <input type="text" name="login_id" value="{{ old('login_id') }}" class="form-control" placeholder="{{ ucwords(lang('username', $translations)) }}" required autocomplete="off" />
+                                <input type="text" name="login_id" value="{{ old('login_id') }}" class="form-control mineral-input" placeholder="{{ ucwords(lang('username', $translations)) }}" required autocomplete="off" />
                             </div>
                             <div>
-                                <input type="password" name="login_pass" class="form-control" placeholder="{{ ucwords(lang('password', $translations)) }}" required autocomplete="off" />
+                                <input type="password" name="login_pass" class="form-control mineral-input" placeholder="{{ ucwords(lang('password', $translations)) }}" required autocomplete="off" />
                             </div>
 
                             @if (!empty($global_config->recaptcha_site_key_admin) && !empty($global_config->recaptcha_secret_key_admin))
@@ -109,22 +110,14 @@
                             @endif
 
                             <div>
-                                <button type="submit" class="btn btn-primary btn-block submit" id="btn-login">{{ ucfirst(lang('log in', $translations)) }}</button>
+                                <button type="submit" class="btn mineral-submit btn-block submit" id="btn-login">{{ ucfirst(lang('log in', $translations)) }}</button>
                             </div>
 
                             <div class="clearfix"></div>
 
-                            <!-- <div class="separator">
-                                <div>
-                                    <h1>{!! $global_config->app_name !!}</h1>
-                                    <p>
-                                        &copy; {{ $global_config->app_copyright_year }} {!! $global_config->app_name !!} {{ 'v'.$global_config->app_version }}
-                                        @if (!empty($global_config->powered_by))
-                                        - {{ lang('Powered by', $translations) }} <a href="{{ $global_config->powered_by_url }}">{!! $global_config->powered_by !!}</a>
-                                        @endif
-                                    </p>
-                                </div>
-                            </div>-->
+                            <div class="mineral-login-footer">
+                                <small class="mineral-login-meta">Welcome back — protect our ocean</small>
+                            </div>
                         </form>
                     </section>
                 </div>

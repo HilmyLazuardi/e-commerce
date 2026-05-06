@@ -18,7 +18,7 @@
                 <div class="container">
                     <form action="{{ route('web.order.process') }}" method="POST">
                         @csrf
-                        <img class="logo" src="{{ asset('images/icon_square.png') }}">
+                        <img class="logo" src="{{ asset('images/logo_app_blue.png') }}">
                         <input type="hidden" name="product_id" value="{{ $data->product_id }}">
                         <input type="hidden" name="product_slug" value="{{ $data->product_slug }}">
                         <input type="hidden" name="variant_id" value="{{ $data->variant_id }}">

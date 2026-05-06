@@ -53,7 +53,7 @@
         <div class="section_profile">
             <div class="profile_box">
                 <div class="container">
-                    <img class="logo" src="{{ asset('images/icon_square.png') }}">
+                    <img class="logo" src="{{ asset('images/logo_app_blue.png') }}">
                     <h3>Kirim ke Mana?</h3>
                     <div class="form_wrapper form_bg">
                         <form action="{{ route('web.order.confirm') }}" method="POST">

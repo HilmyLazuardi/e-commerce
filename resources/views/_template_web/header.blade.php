@@ -167,7 +167,7 @@
             <div class="overlay" onclick="hide_popup();"></div>
             <div class="popup_box">
                 <div class="close_btn" onclick="hide_popup();"></div>
-                <img src="{{ asset('web/images/logo_beta_gold.png') }}">
+                <img src="{{ asset('web/images/Larizzka_Jaya_blue.png') }}">
                 <ul>
                     {{-- <li><a href="#">Beranda</a></li>
                     <li><a href="#">Tentang LokalKorner</a></li>

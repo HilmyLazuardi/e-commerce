@@ -515,7 +515,7 @@
 
         <div id="pre_print">
             <div class="print_top">
-                <img style="width: 80px;display: block;float: left;position: relative;top: 2px;" src="{{ asset('web/images/logo.png') }}">
+                <img style="width: 80px;display: block;float: left;position: relative;top: 2px;" src="{{ asset('web/images/logo_app_blue.png') }}">
                 <span style="float: right;display: block;font-family: 'Arial';font-weight: bold;">Non Tunai</span>
             </div>
             <div class="print_middle">
