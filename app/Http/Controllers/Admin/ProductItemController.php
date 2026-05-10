@@ -622,31 +622,31 @@ class ProductItemController extends Controller
         $multiple_images[] = [
             'id'         => 1, // SET ID
             'src_url'    => !empty($data->image) ? asset($data->image) : NULL, // GET IMAGE URL
-            'src_base64' => !empty($data->image) ? 'data:image/jpeg;base64,' . base64_encode(file_get_contents(asset($data->image))) : NULL, // GET IMAGE BASE64 STRING
+            'src_base64' => !empty($data->image) ? 'data:image/jpeg;base64,' . base64_encode(file_get_contents(public_path($data->image))) : NULL, // GET IMAGE BASE64 STRING
             'type'       => !empty($data->image) ? 'image/' . substr($data->image, strpos($data->image, ".") + 1) : NULL, // GET MIME TYPE (SUBSTR FROM FILE EXTENSION)
         ];
         $multiple_images[] = [
             'id'         => 2,
             'src_url'    => !empty($data->image_2) ? asset($data->image_2) : NULL,
-            'src_base64' => !empty($data->image_2) ? 'data:image/jpeg;base64,' . base64_encode(file_get_contents(asset($data->image_2))) : NULL, // GET IMAGE BASE64 STRING
+            'src_base64' => !empty($data->image_2) ? 'data:image/jpeg;base64,' . base64_encode(file_get_contents(public_path($data->image_2))) : NULL, // GET IMAGE BASE64 STRING
             'type'       => !empty($data->image_2) ? 'image/' . substr($data->image_2, strpos($data->image_2, ".") + 1) : NULL,
         ];
         $multiple_images[] = [
             'id'         => 3,
             'src_url'    => !empty($data->image_3) ? asset($data->image_3) : NULL,
-            'src_base64' => !empty($data->image_3) ? 'data:image/jpeg;base64,' . base64_encode(file_get_contents(asset($data->image_3))) : NULL, // GET IMAGE BASE64 STRING
+            'src_base64' => !empty($data->image_3) ? 'data:image/jpeg;base64,' . base64_encode(file_get_contents(public_path($data->image_3))) : NULL, // GET IMAGE BASE64 STRING
             'type'       => !empty($data->image_3) ? 'image/' . substr($data->image_3, strpos($data->image_3, ".") + 1) : NULL,
         ];
         $multiple_images[] = [
             'id'         => 4,
             'src_url'    => !empty($data->image_4) ? asset($data->image_4) : NULL,
-            'src_base64' => !empty($data->image_4) ? 'data:image/jpeg;base64,' . base64_encode(file_get_contents(asset($data->image_4))) : NULL, // GET IMAGE BASE64 STRING
+            'src_base64' => !empty($data->image_4) ? 'data:image/jpeg;base64,' . base64_encode(file_get_contents(public_path($data->image_4))) : NULL, // GET IMAGE BASE64 STRING
             'type'       => !empty($data->image_4) ? 'image/' . substr($data->image_4, strpos($data->image_4, ".") + 1) : NULL,
         ];
         $multiple_images[] = [
             'id'         => 5,
             'src_url'    => !empty($data->image_5) ? asset($data->image_5) : NULL,
-            'src_base64' => !empty($data->image_5) ? 'data:image/jpeg;base64,' . base64_encode(file_get_contents(asset($data->image_5))) : NULL, // GET IMAGE BASE64 STRING
+            'src_base64' => !empty($data->image_5) ? 'data:image/jpeg;base64,' . base64_encode(file_get_contents(public_path($data->image_5))) : NULL, // GET IMAGE BASE64 STRING
             'type'       => !empty($data->image_5) ? 'image/' . substr($data->image_5, strpos($data->image_5, ".") + 1) : NULL,
         ];
         $multiple_images = json_encode($multiple_images);
