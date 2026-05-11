@@ -93,6 +93,12 @@ class SellerController extends Controller
                 }
                 return '<span class="label label-success">' . ucwords(lang('yes', $this->translations)) . '</span>';
             })
+            ->editColumn('birth_date', function ($data) {
+                if ($data->birth_date) {
+                    return Helper::convert_date_to_indonesian(date('Y-m-d', strtotime($data->birth_date)));
+                }
+                return '-';
+            })
             ->editColumn('updated_at', function ($data) {
                 return Helper::time_ago(strtotime($data->updated_at), lang('ago', $this->translations), Helper::get_periods($this->translations));
             })

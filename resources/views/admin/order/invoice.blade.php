@@ -533,7 +533,7 @@
                                             // $shipper_logo = asset('web/images/anteraja.png');
                                             // break;
                                     // }
-                                    if ($data->shipper_name === 'EmasKorner') {
+                                    if ($data->shipper_name === 'Larizzka_Jaya') {
                                         $shipping_type = explode(' ', $data->shipper_service_type);
                                         $shipping = strtoupper($shipping_type[0]);
                                         switch (strtolower($shipping)) {
