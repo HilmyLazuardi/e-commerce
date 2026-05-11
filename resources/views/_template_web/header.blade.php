@@ -12,7 +12,7 @@
     <header>
         <div class="container">
             <div class="menu_mobile"></div>
-            <h1><a href="{{ route('web.home') }}" id="logo"><img src="{{ asset('web/images/logo_blue_app.png') }}" alt="Larizzka Jaya"></a></h1>
+            <h1><a href="{{ route('web.home') }}" id="logo"><img src="{{ asset('web/images/logo_merge.png') }}" alt="Larizzka Jaya"></a></h1>
             <nav>
                 <ul>
                     @php
