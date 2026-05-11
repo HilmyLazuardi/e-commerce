@@ -154,7 +154,7 @@
 			<tr>
 				<td colspan="2" style="text-align: center;color:#FFF;padding:20px 20px 20px;font-size: 14px;">
 					<strong>Butuh bantuan?</strong> Kami selalu bisa dihubungi lewat <strong>WhatsApp di {!! env('COUNTRY_CODE').$company_info->wa_phone !!}</strong> atau email ke <a href="mailto:help@larizzkajaya.com" style="color: #fff;"><strong>help@larizzkajaya.com</strong></a>
-					{{-- <strong>Need help?</strong> Ask at <a href="mailto:team@emaskorner.com" style="color: #fff;">team@emaskorner.com</a> or Visit our Help Center --}}
+					{{-- <strong>Need help?</strong> Ask at <a href="mailto:team@larizzkajaya.com" style="color: #fff;">team@larizzkajaya.com</a> or Visit our Help Center --}}
 				</td>
 			</tr>
 			<tr>
