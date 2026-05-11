@@ -14,7 +14,7 @@ class AddSkuIdInShoppingCartTable extends Migration
     public function up()
     {
         Schema::table('shopping_cart', function (Blueprint $table) {
-            $table->string('sku_id', 100)->nullable()->after('product_item_variant_id')->comment('format("EK-YYYYMMDD-ID[substr(time(), 3)]"), sample: EK-20210804-1781');
+            $table->string('sku_id', 100)->nullable()->after('product_item_variant_id')->comment('format("LZ-YYYYMMDD-ID[substr(time(), 3)]"), sample: LZ-20210804-1781');
         });
     }
 
