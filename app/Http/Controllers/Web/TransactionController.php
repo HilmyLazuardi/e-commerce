@@ -655,7 +655,7 @@ class TransactionController extends Controller
                     $order->invoice_id = $invoice_id;
 
                     // generate order number
-                    $transaction_id = 'EKT-' . date('YmdHis') . '-' . (substr(time(), 0, 4) + $i);
+                    $transaction_id = 'LZT-' . date('YmdHis') . '-' . (substr(time(), 0, 4) + $i);
                     // make sure invoice number is unique
                     $order->transaction_id = Helper::check_unique('order', $transaction_id, 'transaction_id');
 
@@ -921,7 +921,7 @@ class TransactionController extends Controller
                 DB::rollback();
 
                 $error_msg = $ex->getMessage() . ' in ' . $ex->getFile() . ' at line ' . $ex->getLine();
-                dd($error_msg);
+                // dd($error_msg);
                 Helper::error_logging($error_msg, NULL, NULL, "Error Web/TransactionController@create_transaction()");
 
                 if (env('APP_DEBUG') == FALSE) {

@@ -927,7 +927,7 @@ class OrderController extends Controller
             $shipper = new \stdClass();
             $shipper->name = $company_info->name;
             $shipper->phone = '0' . $company_info->wa_phone;
-            $shipper->email = $company_info->email_office;
+            $shipper->email = $company_info->email_office ?: env('MAIL_FROM_ADDRESS', 'admin@example.com');
             $shipper->district = $data->origin_code;
             $shipper->address = $company_info->address;
             $shipper->postcode = $company_info->postal_code;
@@ -995,7 +995,7 @@ class OrderController extends Controller
                     }
 
                     $result = Anteraja::create_order($data_id, $data->shipper_service_type, $data->shipment_total_weight, $shipper, $receiver, $items, $use_insurance, $data->price_subtotal, $expect_time, $data);
-                    // dd($result, $result['data'][0]->awb);
+                    dd($result);
                     if (!$result['status']) {
                         $error_msg = $result['info'];
                         Helper::error_logging($error_msg, $this->module_id, $id, 'Failed to request pickup AnterAja (Seller Dashboard)');
