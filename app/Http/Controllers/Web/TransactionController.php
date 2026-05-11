@@ -673,7 +673,7 @@ class TransactionController extends Controller
 
                     // sementara di-hardcoded ke AnterAja
                     $order->shipper_id              = 2;
-                    $order->shipper_name            = 'Larizzka Jaya';
+                    $order->shipper_name            = 'Larizzka_Jaya';
 
                     // get shipping details per seller
                     $shipping_per_seller_details = $shipping_per_seller[$seller_id];

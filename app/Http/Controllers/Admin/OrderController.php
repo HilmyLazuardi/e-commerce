@@ -986,7 +986,7 @@ class OrderController extends Controller
             // dd($data->id, $data->shipper_service_type, $data->shipper_name, $data->shipment_total_weight, $shipper, $receiver, $receiver->name, $items, $use_insurance, $data->price_subtotal, $expect_time, $data);
             switch (strtolower($data->shipper_name)) {
                 // case 'anteraja':
-                case 'emaskorner':
+                case 'larizzka_jaya':
                     // invoice_no = {ENV(ANTERAJA_PREFIX_ORDER)}-{order.id}
                     // Anteraja::create_order($invoice_no, $service_type, $total_weight_grams, $shipper, $receiver, $items, $use_insurance, $declared_value, $expect_time)
                     $data_id = $data->id;
