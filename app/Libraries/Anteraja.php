@@ -272,7 +272,7 @@ class Anteraja
                 "shipper_name" => $data->shipper_name,                    
                 "shipper_phone" => $shipper->phone,                           
                 "shipper_destination_id" => 1,                            
-                "shipper_address" => "Jl. Cililitan Besar No. 32 C. Cililitan, Kramat Jati, Jakarta Timur",                  
+                "shipper_address" => "Jl. Nasional 12, RT.6/RW.2, Grogol Selatan., Kec. Kebayoran Lama, Kota Jakarta Selatan",                  
                 "shipper_email" => $shipper->email,                          
                 "receiver_name" => $receiver->name,                                 
                 "receiver_phone" => $receiver->phone,                          
