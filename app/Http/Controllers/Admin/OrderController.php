@@ -995,7 +995,7 @@ class OrderController extends Controller
                     }
 
                     $result = Anteraja::create_order($data_id, $data->shipper_service_type, $data->shipment_total_weight, $shipper, $receiver, $items, $use_insurance, $data->price_subtotal, $expect_time, $data);
-                    dd($result);
+                    // dd($result);
                     if (!$result['status']) {
                         $error_msg = $result['info'];
                         Helper::error_logging($error_msg, $this->module_id, $id, 'Failed to request pickup AnterAja (Seller Dashboard)');
